@@ -88,3 +88,36 @@ a {
     display: inline-block;
     transition: 0.3s;
 }
+
+.cultivo h3 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.cultivo p {
+    font-size: 18px;
+}
+
+.cultivo p {
+    font-size: 20px;
+    max-width: 600px;
+}
+
+.cultivo {
+    padding: 30px;
+}
+
+.cultivo img {
+    margin-bottom: 20px;
+}
+
+.cultivo h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.cultivo p {
+    font-size: 18px;
+    max-width: 600px;
+}
+
