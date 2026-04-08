@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Chatbot</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <div class="chat-container">
+        <h2>Asistente de IA</h2>
+
+        <div id="chat-box" class="chat-box">
+            <div class="mensaje bot">Hola, ¿en qué puedo ayudarte?</div>
+        </div>
+
+        <div class="input-area">
+            <input
+                type="text"
+                id="user-input"
+                placeholder="Escribe tu mensaje..."
+                autocomplete="off"
+            >
+            <button id="btn-enviar" type="button">Enviar</button>
+        </div>
+    </div>
+
+    <script type="module" src="funciones.js"></script>
+</body>
+</html>

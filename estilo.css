@@ -183,3 +183,82 @@ a {
 .btn-link:hover {
     background: #000000;
 }
+
+.contenedor-login {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #000000, #000000);
+}
+
+.formulario {
+    background: rgb(0, 0, 0);
+    padding: 40px;
+    border-radius: 15px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.formulario input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.formulario button {
+    width: 100%;
+    padding: 10px;
+    background: #a30404;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background: #000000;
+}
+
+.formulario h2 {
+    color: black;
+}
+
+body {
+    font-family: Arial;
+    background: #000000;
+}
+
+.chat-container {
+    width: 300px;
+    margin: 50px auto;
+    background: rgb(119, 11, 11);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#chat-box {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #000000;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.mensaje {
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.usuario {
+    background: #000000;
+    text-align: right;
+}
+
+.bot {
+    background: #000000;
+}

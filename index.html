@@ -2,26 +2,52 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Feria Digital Agropecuaria</title>
+    <title>Acceso - Feria Digital</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
+
 <body>
 
-<header class="hero">
-    <h1>👣​ Feria Digital Agropecuaria</h1>
-    <p>Conectando el campo con la tecnología</p>
-</header>
+<div class="contenedor-login">
 
-<section class="menu">
-    <a href="galeria.html" class="card-btn"> Galería</a>
-    <a href="historias.html" class="card-btn"> Historias</a>
-    <a href="contacto.html" class="card-btn"> Contacto</a>
-    <a href="cultivos.html" class="card-btn"> Tipos de Cultivos</a>
-</section>
+    <div class="formulario">
 
-<footer>
-    © 2026 Feria Digital - Proyecto Académico
-</footer>
+        <h2>Iniciar Sesión</h2>
+
+        <input type="email" placeholder="Correo" id="loginEmail">
+        <input type="password" placeholder="Contraseña" id="loginPass">
+
+        <button onclick="iniciarSesion()">Ingresar</button>
+
+        <hr>
+
+        <h2>Registrarse</h2>
+
+        <input type="email" placeholder="Correo" id="registerEmail">
+        <input type="password" placeholder="Contraseña" id="registerPass">
+
+        <button onclick="registrar()">Crear cuenta</button>
+
+    </div>
+
+</div>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js"></script>
+<script>
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyB7GMIVsw7hP1ZRK3O-S1Mfx8nCJayPhGI",
+  authDomain: "feria-digital-35226.firebaseapp.com",
+  projectId: "feria-digital-35226",
+  storageBucket: "feria-digital-35226.firebasestorage.app",
+  messagingSenderId: "370533804605",
+  appId: "1:370533804605:web:848c68d4294f8d9c149854",
+  measurementId: "G-90T426WZXQ"
+};
+
+firebase.initializeApp(firebaseConfig);
+</script>
+<script src="funciones.js"></script>
 
 </body>
 </html>
